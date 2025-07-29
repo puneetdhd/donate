@@ -1,9 +1,9 @@
-// src/App.jsx
 import React from 'react';
 import Navbar from './components/navbar';
 import Hero from './components/Hero';
 import Causes from './components/Causes';
 import Stats from './components/Stats';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         </div>
         <Stats />
       </main>
+      <Footer/>
     </div>
   );
 }
