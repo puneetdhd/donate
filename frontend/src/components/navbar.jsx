@@ -31,7 +31,7 @@ const Navbar = () => {
           transition-all duration-300 ease-in-out
           ${isScrolled
             ? 'max-w-3xl bg-white/70 backdrop-blur-lg shadow-lg rounded-4xl p-4'
-            : 'max-w-7xl bg-white/70 backdrop-blur-lg shadow-lg rounded-4xl p-4'
+            : 'max-w-6xl bg-white/70 backdrop-blur-lg shadow-lg rounded-4xl p-4'
           }
         `}
       >
